@@ -5,6 +5,12 @@ local act = wezterm.action
 -- Configuration table
 local config = {}
 
+-- Dimensions on opening application on Windows
+wezterm.on("gui-startup", function()
+  local tab, pane, window = mux.spawn_window{}
+  window:gui_window():maximize()
+end)
+
 -- Set color scheme
 config.color_scheme = 'Black Metal (Dark Funeral) (base16)'
 
@@ -47,8 +53,8 @@ config.mouse_bindings = {
   },
 }
 
-config.initial_cols = 1920
-config.initial_rows = 540
+-- config.initial_cols = 1920
+-- config.initial_rows = 540
 
 -- Adjust text color brightness
 config.foreground_text_hsb = {
