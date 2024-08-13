@@ -9,8 +9,8 @@ local config = {}
 config.color_scheme = 'Black Metal (Dark Funeral) (base16)'
 
 -- Set font and size
-config.font = wezterm.font('CaskaydiaCove Nerd Font Mono')
-config.font_size = 11
+config.font = wezterm.font('FiraCode Nerd Font')
+config.font_size = 12
 
 -- Set cursor style to a thicker blinking bar and make it blink faster
 config.default_cursor_style = 'SteadyBlock'

@@ -1,0 +1,131 @@
+#format = "$username$hostname($shlvl)($cmd_duration) $fill \n$directory($git_branch$git_commit$git_state$git_status)($aws$gcloud$openstack) $fill $time\n$jobs$character\n"
+format = '''
+$username$hostname$git_branch$git_commit$git_state$git_status$directory \($c$cmake$crystal$deno$docker_context$fennel$fossil_branch$golang$haxe$jobs$kotlin$lua$hg_branch$nodejs$php$python$raku$rust$swift$vlang$zig\) $spack $terraform $fill $memory_usage $time
+$character'''
+
+[aws]
+format = "on [$symbol$profile(\\($region\\))]($style)"
+symbol = " "
+ 
+[character]
+error_symbol = "[~~>](bold red)"
+success_symbol = "[->>](bold green)"
+vimcmd_replace_one_symbol = "[<<-](bold purple)"
+vimcmd_replace_symbol = "[<<-](bold purple)"
+vimcmd_symbol = "[<<-](bold yellow)"
+vimcmd_visual_symbol = "[<<-](bold cyan)"
+ 
+[cmd_duration]
+format = "took [$duration]($style) "
+ 
+[conda]
+symbol = " "
+ 
+[custom]
+ 
+[dart]
+symbol = " "
+ 
+[directory]
+format = "[$path]($style)( [$read_only]($read_only_style)) "
+read_only = " "
+ 
+[docker_context]
+symbol = " "
+ 
+[elixir]
+symbol = ""
+ 
+[elm]
+symbol = " "
+ 
+[fill]
+symbol = " "
+ 
+[gcloud]
+format = "on [$symbol$active(/$project)(\\($region\\))]($style)"
+symbol = " "
+ 
+[git_branch]
+symbol = " "
+ 
+[golang]
+symbol = " "
+ 
+[haskell]
+symbol = " "
+ 
+[hg_branch]
+symbol = " "
+ 
+[hostname]
+format = "[@$hostname]($style) "
+ssh_only = false
+style = "bold green"
+ 
+[java]
+symbol = " "
+ 
+[julia]
+symbol = " "
+ 
+[lua]
+symbol = " "
+ 
+[memory_usage]
+symbol = "󰍛 "
+ 
+[nim]
+symbol = "󰆥 "
+ 
+[nix_shell]
+format = "[($name \\(develop\\) <- )$symbol]($style) "
+impure_msg = ""
+style = "bold red"
+symbol = " "
+ 
+[nodejs]
+symbol = " "
+ 
+[package]
+symbol = "󰏗 "
+ 
+[perl]
+symbol = " "
+ 
+[php]
+symbol = " "
+ 
+[python]
+symbol = " "
+ 
+[ruby]
+symbol = " "
+ 
+[rust]
+symbol = " "
+ 
+[scala]
+symbol = " "
+ 
+[shlvl]
+disabled = false
+format = "[$shlvl]($style) "
+repeat = true
+style = "bold cyan"
+symbol = ""
+threshold = 2
+ 
+[swift]
+symbol = "󰛥 "
+ 
+[terraform]
+symbol = "󱁢"
+ 
+[time]
+disabled = false
+format = "\\[[$time]($style)\\]"
+ 
+[username]
+format = "[$user]($style)"
+show_always = true
