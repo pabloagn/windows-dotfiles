@@ -1,6 +1,6 @@
 #format = "$username$hostname($shlvl)($cmd_duration) $fill \n$directory($git_branch$git_commit$git_state$git_status)($aws$gcloud$openstack) $fill $time\n$jobs$character\n"
 format = '''
-$username$hostname$git_branch$git_commit$git_state$git_status$directory \($c$cmake$crystal$deno$docker_context$fennel$fossil_branch$golang$haxe$jobs$kotlin$lua$hg_branch$nodejs$php$python$raku$rust$swift$vlang$zig\) $spack $terraform $fill $memory_usage $time
+$username$hostname$git_branch$git_commit$git_state$git_status$directory \($aws$cmd_duration$conda$dart$docker_context$elixir$elm$gcloud$golang$haskell$hg_branch$java$julia$lua$memory_usage$nim$nix_shell$nodejs$package$perl$php$python$ruby$rust$scala$shlvl$swift\) $spack $terraform $fill $memory_usage $time
 $character'''
 
 [aws]
