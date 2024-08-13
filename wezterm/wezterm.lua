@@ -19,8 +19,8 @@ config.font = wezterm.font('FiraCode Nerd Font')
 config.font_size = 12
 
 -- Set cursor style to a thicker blinking bar and make it blink faster
-config.default_cursor_style = 'SteadyBlock'
-config.cursor_blink_rate = 200 -- Blink rate in milliseconds (adjust as needed)
+config.default_cursor_style = 'SteadyBar'
+config.cursor_blink_rate = 0 -- Blink rate in milliseconds (adjust as needed)
 
 -- Set default program for PowerShell
 config.default_prog = { 'pwsh.exe', '-nologo', '-WorkingDirectory', '~' }
