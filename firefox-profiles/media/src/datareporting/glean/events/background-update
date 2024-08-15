@@ -1,0 +1,3 @@
+{"timestamp":686,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","glean_timestamp":"1723504514291","experiment":"relay-integration-into-firefox-release-for-all-fxa-users"}}
+{"timestamp":754,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","experiment":"yelp-suggestions-rollout","glean_timestamp":"1723504514358"}}
+{"timestamp":776,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","glean_timestamp":"1723504514381","feature":"addAnImageInPDF","experiment":"add-an-image-to-pdf-with-alt-text-rollout"}}

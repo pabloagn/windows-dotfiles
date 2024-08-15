@@ -1,0 +1,4 @@
+{"timestamp":0,"category":"webcompatreporting","name":"reason_dropdown","extra":{"glean_timestamp":"1723504960282","setting":"required"}}
+{"timestamp":643,"category":"nimbus_events","name":"enroll_failed","extra":{"experiment":"relay-integration-into-firefox-release-for-all-fxa-users","reason":"feature-conflict","glean_timestamp":"1723504960926"}}
+{"timestamp":713,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","experiment":"add-an-image-to-pdf-with-alt-text-rollout","feature":"addAnImageInPDF","glean_timestamp":"1723504960996"}}
+{"timestamp":714,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1723504960996"}}

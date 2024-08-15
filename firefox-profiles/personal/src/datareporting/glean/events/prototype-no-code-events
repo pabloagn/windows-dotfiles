@@ -1,0 +1,2 @@
+{"timestamp":1195,"category":"browser.usage","name":"interaction","extra":{"glean_timestamp":"1723504961478","widget_id":"bookmark-item","source":"bookmarks-bar","flow_id":"{a253646c-eb2b-4117-b846-408ab9b11149}"},"execution_counter":21}
+{"timestamp":1979,"category":"browser.usage","name":"interaction","extra":{"source":"bookmarks-bar","widget_id":"bookmark-item","flow_id":"{a253646c-eb2b-4117-b846-408ab9b11149}","glean_timestamp":"1723504962262"},"execution_counter":21}
