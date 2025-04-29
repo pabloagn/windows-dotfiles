@@ -1,0 +1,8 @@
+{
+    "initial_working_directory": "~",
+    "editor_theme": "Dracula",
+    "pdf_previewer": "none",
+    "windows_terminal_shell": "win-git-bash",
+    "jobs_tab_visibility": "shown",
+    "document_author": "Pablo Aguirre"
+}

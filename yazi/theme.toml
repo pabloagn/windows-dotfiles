@@ -1,0 +1,109 @@
+# --------------------------------------------------------
+# Theme:............Bold Borders Dark
+# Type:.............Yazi Theme Configuration
+# --------------------------------------------------------
+
+"$schema" = "https://yazi-rs.github.io/schemas/theme.json"
+
+# Make strong, visible borders around the entire window
+[manager]
+border = "thick"  # Using thick borders for maximum visibility
+border_style = { fg = "lightcyan" }  # High contrast border
+border_symbol = "│"
+
+# Improve status bar readability with high contrast
+[status]
+overall = { fg = "white", bg = "black", bold = true }  # Bold white text on black
+separator_open = "["
+separator_close = "]"
+separator_style = { fg = "lightcyan", bg = "black", bold = true }
+
+# Make permissions more readable
+perm_read = { fg = "lightgreen", bg = "black", bold = true }
+perm_write = { fg = "lightyellow", bg = "black", bold = true }
+perm_exec = { fg = "lightred", bg = "black", bold = true }
+perm_none = { fg = "darkgray", bg = "black" }
+
+# Manager styling for high contrast
+cwd = { fg = "lightcyan", bg = "black", bold = true }
+hovered = { fg = "black", bg = "white", bold = true }
+previewed = { fg = "lightcyan", bg = "black", italic = true }
+selected = { fg = "black", bg = "lightcyan", bold = true }
+
+# Clear visual markers
+marker_selected = { fg = "yellow", bg = "yellow" }
+marker_copied = { fg = "lightgreen", bg = "lightgreen" }
+marker_cut = { fg = "lightred", bg = "lightred" }
+
+# Mode styling for better visibility
+[mode]
+normal_main = { fg = "black", bg = "lightcyan", bold = true }
+normal_alt = { fg = "lightcyan", bg = "black", bold = true }
+select_main = { fg = "black", bg = "lightmagenta", bold = true }
+select_alt = { fg = "lightmagenta", bg = "black", bold = true }
+
+# Style tab bar for better visibility
+tab_active = { fg = "black", bg = "lightcyan", bold = true }
+tab_inactive = { fg = "white", bg = "darkgray" }
+tab_width = 1
+
+# Dialog styling with strong borders
+[confirm]
+border = { fg = "lightcyan", bold = true }
+title = { fg = "lightcyan", bold = true }
+content = { fg = "white", bold = true }
+btn_yes = { fg = "black", bg = "lightgreen", bold = true }
+btn_no = { fg = "black", bg = "lightred", bold = true }
+
+# Input styling with strong borders
+[input]
+border = { fg = "lightcyan", bold = true }
+title = { fg = "white", bold = true }
+value = { fg = "white", bold = true }
+selected = { fg = "black", bg = "lightcyan" }
+
+# Notification styling with high visibility
+[notify]
+title_info = { fg = "lightgreen", bold = true }
+title_warn = { fg = "lightyellow", bold = true }
+title_error = { fg = "lightred", bold = true }
+icon_info = "●"
+icon_warn = "▲"
+icon_error = "■"
+
+# File type styling with high contrast
+[filetype]
+rules = [
+  # Directories
+  { name = "*/", fg = "lightcyan", bold = true },
+
+  # Configuration files
+  { name = "*.{toml,yaml,yml,json,conf}", fg = "lightyellow", bold = true },
+
+  # Executables
+  { name = "*", is = "exec", fg = "lightgreen", bold = true },
+
+  # Documents
+  { name = "*.{md,txt,org,rst}", fg = "white", bold = true },
+  { name = "*.{pdf,epub,mobi,djvu}", fg = "lightmagenta", bold = true },
+
+  # Code files
+  { name = "*.{c,cpp,h,hpp,rs,go,java}", fg = "lightblue", bold = true },
+  { name = "*.{js,ts,jsx,tsx,html,css}", fg = "yellow", bold = true },
+  { name = "*.{py,rb,lua,php,pl,sh}", fg = "lightgreen", bold = true },
+
+  # Archives
+  { name = "*.{zip,tar,gz,rar,7z,bz2}", fg = "lightred", bold = true },
+
+  # Media files
+  { name = "*.{jpg,jpeg,png,gif,webp,svg}", fg = "magenta", bold = true },
+  { name = "*.{mp3,wav,flac,ogg,opus}", fg = "lightmagenta", bold = true },
+  { name = "*.{mp4,mkv,avi,mov,webm}", fg = "lightred", bold = true },
+
+  # Special files
+  { name = "*", is = "orphan", fg = "lightred", bg = "black", bold = true },
+  { name = "*", is = "link", fg = "lightcyan", italic = true, bold = true },
+
+  # Default
+  { name = "*", fg = "white" }
+]

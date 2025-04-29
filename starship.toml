@@ -107,7 +107,9 @@ symbol = " "
  
 [scala]
 symbol = " "
- 
+detect_folders = []
+detect_files = ["build.sbt", "build.sc", "build.gradle", ".scala-build"]
+
 [shlvl]
 disabled = false
 format = "[$shlvl]($style) "
