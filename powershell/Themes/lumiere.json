@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 2,
+  "final_space": true,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "path",
+          "style": "diamond",
+          "powerline_symbol": "\ue0b0",
+          "foreground": "#161616",
+          "background": "#38d6af",
+          "leading_diamond": "\ue0b6",
+
+          "template": " \ue5ff {{ .Path }} ",
+          "properties": {
+            "style": "folder"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "foreground": "#193549",
+          "background": "#878e99",
+          "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} ",
+          "properties": {
+            "fetch_stash_count": true,
+            "fetch_status": true,
+            "fetch_upstream_icon": true
+          }
+        },
+        {
+        "type": "python",
+        "style": "powerline",
+        "powerline_symbol": "\uE0B0",
+        "foreground": "#100e23",
+        "background": "#906cff",
+        "template": " \uE235 {{ .Full }} ",
+        "properties": {
+            "display_virtual_env":true,
+            "display-mode":"always"
+          }
+        },
+        {
+        "type": "julia",
+        "style": "powerline",
+        "powerline_symbol": "\uE0B0",
+        "foreground": "#ffffff",
+        "background": "#4063D8",
+        "template": " \uE624 {{ .Full }} "
+        },
+        {
+        "type": "r",
+        "style": "powerline",
+        "powerline_symbol": "\uE0B0",
+        "foreground": "#161616",
+        "background": "#d840d8",
+        "template": " \uE624 {{ .Full }} "
+        },  
+        {
+          "type": "root",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "foreground": "#ffffff",
+          "background": "#ffff66",
+          "template": " \uf0e7 "
+        },
+        {
+          "type": "exit",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "foreground": "#131313",
+          "background": "#ccd7e2",
+          "background_templates": [
+            "{{ if gt .Code 0 }}#f1184c{{ end }}"
+          ],
+          "trailing_diamond": "\ue0b4",
+          "template": " \ue23a{{ if gt .Code 0 }}{{ else }}{{ end }} ",
+          "properties": {
+            "always_enabled": true
+          }
+        }
+      ]
+    }
+  ]
+}
