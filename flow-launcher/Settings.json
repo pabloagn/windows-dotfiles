@@ -3,11 +3,11 @@
   "OpenResultModifiers": "Alt",
   "ColorScheme": "System",
   "ShowOpenResultHotkey": true,
-  "WindowSize": 830,
+  "WindowSize": 800,
   "PreviewHotkey": "F1",
   "Language": "en",
   "Theme": "Sanctum_v2",
-  "UseDropShadowEffect": false,
+  "UseDropShadowEffect": true,
   "QueryBoxFont": "Apercu Mono Pro",
   "QueryBoxFontStyle": "Normal",
   "QueryBoxFontWeight": "Normal",
@@ -25,11 +25,11 @@
   "TimeFormat": "hh:mm tt",
   "DateFormat": "MM\u0027/\u0027dd ddd",
   "FirstLaunch": false,
-  "SettingWindowWidth": 1936,
-  "SettingWindowHeight": 1048,
+  "SettingWindowWidth": 2574.6666666666665,
+  "SettingWindowHeight": 1406.6666666666665,
   "SettingWindowTop": 0,
   "SettingWindowLeft": 0,
-  "SettingWindowState": 0,
+  "SettingWindowState": 2,
   "CustomExplorerIndex": 0,
   "CustomExplorerList": [
     {
@@ -61,7 +61,7 @@
       "Editable": true
     }
   ],
-  "CustomBrowserIndex": 4,
+  "CustomBrowserIndex": 2,
   "CustomBrowserList": [
     {
       "Name": "Default",
@@ -84,7 +84,7 @@
       "Path": "firefox",
       "PrivateArg": "-private",
       "EnablePrivate": false,
-      "OpenInTab": true,
+      "OpenInTab": false,
       "Editable": false
     },
     {
@@ -109,12 +109,12 @@
   "AlwaysStartEn": false,
   "QuerySearchPrecision": "Regular",
   "AutoUpdates": false,
-  "WindowLeft": 545,
-  "WindowTop": 246,
+  "WindowLeft": 880,
+  "WindowTop": 336,
   "CustomWindowLeft": 0,
   "CustomWindowTop": 0,
-  "MaxResultsToShow": 10,
-  "ActivateTimes": 708,
+  "MaxResultsToShow": 5,
+  "ActivateTimes": 4760,
   "CustomPluginHotkeys": [],
   "CustomShortcuts": [],
   "DontPromptUpdateMsg": false,
@@ -124,7 +124,7 @@
   "HideNotifyIcon": false,
   "LeaveCmdOpen": false,
   "HideWhenDeactivated": true,
-  "SearchWindowScreen": "Cursor",
+  "SearchWindowScreen": "Primary",
   "SearchWindowAlign": "Center",
   "CustomScreenNumber": 1,
   "IgnoreHotkeysOnFullscreen": false,

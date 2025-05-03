@@ -1,0 +1,53 @@
+{
+  "InernalInegrationToken": "",
+  "DatabaseCachePath": "C:\\Users\\Pablo\\AppData\\Local\\FlowLauncher\\app-1.18.0\\UserData\\Plugins\\Notion-4.1.0\\cache\\database.json",
+  "FullCachePath": "C:\\Users\\Pablo\\AppData\\Local\\FlowLauncher\\app-1.18.0\\UserData\\Plugins\\Notion-4.1.0\\cache\\search.json",
+  "SearchResultSubtitle": "DB / Relation / Chain",
+  "Cachable": false,
+  "RelationsIcons": true,
+  "DatabaseIcons": true,
+  "PagesIcons": true,
+  "UseBrowser": false,
+  "FailedRequests": false,
+  "Hide": false,
+  "RelationSubtitle": true,
+  "PopUpPageAfterCreate": false,
+  "SearchBase": "All pages",
+  "DefaultDatabase": "",
+  "RelationDatabase": "",
+  "RelationDatabases": [],
+  "RelationDatabasesIds": [],
+  "RelationDatabaseId": "",
+  "Filters": [
+    {
+      "Title": "Complete",
+      "Timeout": 100,
+      "SubTitle": "",
+      "ItemSubTitle": "relation",
+      "Databases": [],
+      "JsonType": 1,
+      "Json": "{\u0022properties\u0022:{\u0022Status\u0022:{\u0022status\u0022:{\u0022name\u0022:\u0022\u2705\u0022}}}}",
+      "IcoPath": "C:\\Users\\Pablo\\AppData\\Local\\FlowLauncher\\app-1.18.0\\UserData\\Plugins\\Notion-4.1.0\\Images\\item_complete.png",
+      "CacheType": 0,
+      "Enabled": true,
+      "Count": true
+    },
+    {
+      "Title": "Delete",
+      "Timeout": 100,
+      "SubTitle": "",
+      "ItemSubTitle": "relation",
+      "Databases": [],
+      "JsonType": 1,
+      "Json": "{\u0022archived\u0022 : true}",
+      "IcoPath": "C:\\Users\\Pablo\\AppData\\Local\\FlowLauncher\\app-1.18.0\\UserData\\Plugins\\Notion-4.1.0\\Images\\item_delete.png",
+      "CacheType": 0,
+      "Enabled": true,
+      "Count": true
+    }
+  ],
+  "SearchFiltersOptions": [
+    "Disabled",
+    "All pages"
+  ]
+}

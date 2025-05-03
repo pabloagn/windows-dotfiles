@@ -1,0 +1,35 @@
+{
+  "MaxResult": 100,
+  "QuickAccessLinks": [
+    {
+      "Path": "C:\\Users\\Pablo\\Proton Drive\\pabloaguirrenck\\My files\\4000-4999 Interests\\410 Literature\\Book Library\\Calibre Library\\Aldous Huxley\\Brave New World (ePubLibre) (3143)\\Brave New World (ePubLibre) - Aldous Huxley.epub",
+      "Type": 2
+    }
+  ],
+  "IndexSearchExcludedSubdirectoryPaths": [],
+  "EditorPath": "",
+  "FolderEditorPath": "",
+  "ShellPath": "cmd",
+  "UseLocationAsWorkingDir": false,
+  "ShowWindowsContextMenu": true,
+  "DefaultOpenFolderInFileManager": false,
+  "SearchActionKeyword": "*",
+  "SearchActionKeywordEnabled": true,
+  "FileContentSearchActionKeyword": "doc:",
+  "FileContentSearchKeywordEnabled": true,
+  "PathSearchActionKeyword": "*",
+  "PathSearchKeywordEnabled": false,
+  "IndexSearchActionKeyword": "*",
+  "IndexSearchKeywordEnabled": false,
+  "QuickAccessActionKeyword": "*",
+  "QuickAccessKeywordEnabled": false,
+  "WarnWindowsSearchServiceOff": true,
+  "IndexSearchEngine": 0,
+  "PathEnumerationEngine": 0,
+  "ContentSearchEngine": 0,
+  "EverythingInstalledPath": null,
+  "SortOption": 1,
+  "EnableEverythingContentSearch": false,
+  "EverythingEnabled": false,
+  "EverythingSearchFullPath": false
+}

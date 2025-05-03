@@ -20,7 +20,7 @@ config.show_update_window = true           -- Show a GUI window when an update i
 
 -- Appearance
 -- ==========
-config.color_scheme = 'Black Metal (Dark Funeral) (base16)' -- Your chosen color scheme
+config.color_scheme = 'Black Metal (Dark Funeral) (base16)'
 
 -- Font Configuration (Using font_with_fallback for better glyph coverage)
 config.font = wezterm.font_with_fallback({
@@ -29,7 +29,7 @@ config.font = wezterm.font_with_fallback({
   'Symbols Nerd Font Mono',
   'Noto Color Emoji',
 })
-config.font_size = 10.0
+config.font_size = 11.0
 
 -- Enable Font Ligatures (Common for Fira Code)
 config.harfbuzz_features = { 'calt=1', 'clig=1', 'liga=1' }

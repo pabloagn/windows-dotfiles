@@ -1,0 +1,86 @@
+{
+  "LastIndexTime": "2025-05-02T21:20:36.7568327+01:00",
+  "ProgramSources": [],
+  "DisabledProgramSources": [
+    {
+      "Location": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs",
+      "Name": "Visual Studio 2022",
+      "Enabled": false,
+      "UniqueIdentifier": "c:\\programdata\\microsoft\\windows\\start menu\\programs\\visual studio 2022.lnk"
+    },
+    {
+      "Location": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\common7\\ide",
+      "Name": "devenv",
+      "Enabled": false,
+      "UniqueIdentifier": "c:\\program files\\microsoft visual studio\\2022\\community\\common7\\ide\\devenv.exe"
+    },
+    {
+      "Location": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio 2019\\Visual Studio Tools",
+      "Name": "Developer Command Prompt for VS 2019",
+      "Enabled": false,
+      "UniqueIdentifier": "c:\\programdata\\microsoft\\windows\\start menu\\programs\\visual studio 2019\\visual studio tools\\developer command prompt for vs 2019.lnk"
+    },
+    {
+      "Location": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio 2022\\Visual Studio Tools",
+      "Name": "Developer Command Prompt for VS 2022 LTSC 17.2",
+      "Enabled": false,
+      "UniqueIdentifier": "c:\\programdata\\microsoft\\windows\\start menu\\programs\\visual studio 2022\\visual studio tools\\developer command prompt for vs 2022 ltsc 17.2.lnk"
+    },
+    {
+      "Location": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio 2022\\Visual Studio Tools",
+      "Name": "Developer Command Prompt for VS 2022",
+      "Enabled": false,
+      "UniqueIdentifier": "c:\\programdata\\microsoft\\windows\\start menu\\programs\\visual studio 2022\\visual studio tools\\developer command prompt for vs 2022.lnk"
+    },
+    {
+      "Location": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio 2019\\Visual Studio Tools",
+      "Name": "Developer PowerShell for VS 2019",
+      "Enabled": false,
+      "UniqueIdentifier": "c:\\programdata\\microsoft\\windows\\start menu\\programs\\visual studio 2019\\visual studio tools\\developer powershell for vs 2019.lnk"
+    },
+    {
+      "Location": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio 2022\\Visual Studio Tools",
+      "Name": "Developer PowerShell for VS 2022 LTSC 17.2",
+      "Enabled": false,
+      "UniqueIdentifier": "c:\\programdata\\microsoft\\windows\\start menu\\programs\\visual studio 2022\\visual studio tools\\developer powershell for vs 2022 ltsc 17.2.lnk"
+    },
+    {
+      "Location": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio 2022\\Visual Studio Tools",
+      "Name": "Developer PowerShell for VS 2022",
+      "Enabled": false,
+      "UniqueIdentifier": "c:\\programdata\\microsoft\\windows\\start menu\\programs\\visual studio 2022\\visual studio tools\\developer powershell for vs 2022.lnk"
+    },
+    {
+      "Location": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.DevHome_0.1600.561.0_x64__8wekyb3d8bbwe",
+      "Name": "Dev Home",
+      "Enabled": false,
+      "UniqueIdentifier": "microsoft.windows.devhome_8wekyb3d8bbwe!app"
+    },
+    {
+      "Location": "C:\\Users\\Pablo\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs",
+      "Name": "Emacs",
+      "Enabled": false,
+      "UniqueIdentifier": "c:\\users\\pablo\\appdata\\roaming\\microsoft\\windows\\start menu\\programs\\emacs.lnk"
+    }
+  ],
+  "CustomSuffixes": [],
+  "CustomProtocols": [],
+  "BuiltinSuffixesStatus": {
+    "exe": true,
+    "appref-ms": true,
+    "lnk": true
+  },
+  "BuiltinProtocolsStatus": {
+    "steam": true,
+    "epic": true,
+    "http": false
+  },
+  "UseCustomSuffixes": false,
+  "UseCustomProtocols": false,
+  "EnableStartMenuSource": true,
+  "EnableDescription": false,
+  "HideAppsPath": true,
+  "EnableRegistrySource": true,
+  "EnablePathSource": false,
+  "EnableUWP": true
+}
